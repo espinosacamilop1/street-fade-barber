@@ -1,0 +1,49 @@
+:root {
+  --white: #ffffff;
+  --white-soft: #f8f8f8;
+  --white-mute: #f2f2f2;
+
+  --black: #181818;
+  --black-soft: #313131;
+
+  --gold: #CEB28B;
+}
+
+/* semantic color variables for this project */
+:root {
+  --color-background: var(--white);
+  --color-background-soft: var(--white-soft);
+  --color-background-mute: var(--white-mute);
+
+  --black-heading: var(--black-soft);
+  --white-heading: var(--white-soft);
+  --black-text: var(--black-soft);
+  --white-text: var(--white-soft);
+
+  --section-gap: 85px;
+  --max-container-width: 1140px;
+}
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: normal;
+}
+
+body {
+  min-height: 100vh;
+  color: var(--black-text);
+  background: var(--color-background);
+  transition:
+    color 0.5s,
+    background-color 0.5s;
+  line-height: 1.6;
+  font-family: Lato;
+  font-size: 15px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

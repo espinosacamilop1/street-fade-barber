@@ -5,5 +5,7 @@
 </script>
 
 <template>
-Galeria
+    <div>
+        Galeria
+    </div>
 </template>

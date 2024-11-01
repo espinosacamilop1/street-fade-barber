@@ -5,5 +5,7 @@
 </script>
 
 <template>
-Footer
+    <div>
+        Footer
+    </div>
 </template>

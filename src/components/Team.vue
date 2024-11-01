@@ -5,5 +5,7 @@
 </script>
 
 <template>
-Equipo
+    <div>
+        Equipo
+    </div>
 </template>

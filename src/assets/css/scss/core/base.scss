@@ -23,6 +23,9 @@
 
   --section-gap: 85px;
   --max-container-width: 1140px;
+
+  --heading-font: Bebas;
+  --soft-shadow: 0 4px 4px rgb(0, 0, 0, 0.25)
 }
 
 
@@ -47,4 +50,47 @@ body {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+// Headings
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--black-heading);
+  font-family: var(--heading-font);
+}
+
+h2 {
+  font-size: 35px;
+}
+
+// Button
+button {
+  font-family: var(--heading-font);
+  font-size: 24px;
+  background-color: var(--white-soft);
+  height: fit-content;
+  padding: 0.8rem 2.7rem;
+  border-radius: 50px;
+  box-shadow: var(--soft-shadow);
+  border: none;
+  transition: 0.3s;
+
+
+  &:hover {
+    background-color: var(--black-soft);
+
+    a {
+      color: var(--white-soft);
+    }
+  }
+
+  a {
+    color: var(--black-soft);
+    text-decoration: none;
+  }
 }

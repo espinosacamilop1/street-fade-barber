@@ -1,11 +1,16 @@
 <script setup>
+
     defineProps({
 
     })
 </script>
 
 <template>
-Nav
+    <div>
+        <a href="#Servicios">Servicios</a>
+        <img src="../assets/img/logo.png" alt="">
+        <a href="#Equipo">Equipo</a>
+    </div>
 </template>
 
 <style scoped>

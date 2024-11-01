@@ -1,6 +1,6 @@
 /* Base */
-@import './scss/fonts.scss';
-@import './scss/base.scss';
+@import './scss/core/fonts.scss';
+@import './scss/core/base.scss';
 
 /* Components */
-@import './scss/navbar.scss';
+@import './scss/components/navbar.scss';

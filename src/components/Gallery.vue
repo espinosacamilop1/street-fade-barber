@@ -7,7 +7,3 @@
 <template>
 Galeria
 </template>
-
-<style scoped>
-   
-</style>

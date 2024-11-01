@@ -7,7 +7,3 @@
 <template>
 Servicios
 </template>
-
-<style scoped>
-   
-</style>

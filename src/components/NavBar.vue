@@ -12,7 +12,3 @@
         <a href="#Equipo" data-hover="Equipo">Equipo</a>
     </div>
 </template>
-
-<style scoped>
-   
-</style>

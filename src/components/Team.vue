@@ -7,7 +7,3 @@
 <template>
 Equipo
 </template>
-
-<style scoped>
-   
-</style>

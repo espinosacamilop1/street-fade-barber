@@ -7,7 +7,3 @@
 <template>
 Heroe
 </template>
-
-<style scoped>
-   
-</style>

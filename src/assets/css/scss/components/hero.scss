@@ -1,0 +1,31 @@
+.hero-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../../../img/hero.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 690px;
+    width: 100%;
+    position: relative;
+
+    button {
+        position: relative;
+    }
+
+    &::before {
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        right: 0;
+        bottom: 0;
+        background-color: #CEB28B;
+        filter: blur(20px);
+        z-index: 0;
+        max-width: 455px;
+        max-height: 140px;
+        transform: translate(-50%, -50%);
+    }
+      
+}

@@ -5,5 +5,9 @@
 </script>
 
 <template>
-Heroe
+    <div class="hero-container">
+            <button class="button">
+                <a href="">Reserva Ahora</a>
+            </button>
+    </div>
 </template>

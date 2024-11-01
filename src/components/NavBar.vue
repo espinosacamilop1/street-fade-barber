@@ -6,10 +6,10 @@
 </script>
 
 <template>
-    <div>
-        <a href="#Servicios">Servicios</a>
+    <div class="nav-container">
+        <a href="#Servicios" data-hover="Servicios">Servicios</a>
         <img src="../assets/img/logo.png" alt="">
-        <a href="#Equipo">Equipo</a>
+        <a href="#Equipo" data-hover="Equipo">Equipo</a>
     </div>
 </template>
 

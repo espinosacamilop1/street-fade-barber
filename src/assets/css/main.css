@@ -1,6 +1,13 @@
 /* Base */
 @import './scss/core/fonts.scss';
 @import './scss/core/base.scss';
+@import './scss/core/main.scss';
+/* @import './scss/core/mixins.scss'; Coming soon */
 
 /* Components */
 @import './scss/components/navbar.scss';
+@import './scss/components/footer.scss';
+@import './scss/components/gallery.scss';
+@import './scss/components/services.scss';
+@import './scss/components/team.scss';
+@import './scss/components/hero.scss';

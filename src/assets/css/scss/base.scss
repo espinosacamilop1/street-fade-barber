@@ -6,7 +6,8 @@
   --black: #181818;
   --black-soft: #313131;
 
-  --gold: #CEB28B;
+  --soft-gold: #CEB28B;
+  --gold: #c8a755;
 }
 
 /* semantic color variables for this project */
@@ -42,7 +43,7 @@ body {
     background-color 0.5s;
   line-height: 1.6;
   font-family: Lato;
-  font-size: 15px;
+  font-size: 16px;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

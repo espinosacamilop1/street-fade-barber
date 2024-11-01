@@ -1,0 +1,6 @@
+/* Base */
+@import './scss/fonts.scss';
+@import './scss/base.scss';
+
+/* Components */
+@import './scss/navbar.scss';

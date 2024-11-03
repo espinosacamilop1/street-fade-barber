@@ -3,4 +3,44 @@
     width: 100%;
     margin-left: auto;
     margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    gap: var(--inner-sections-gap);
+
+    .services-list-wrapper {
+
+        .services-list-background {
+            position: absolute;
+            left: 0;
+            width: 670px;
+            height: 600px;
+            background-repeat: no-repeat;
+            background-image: url('../../../img/services-background.png');
+            background-size: contain;
+        }
+
+        .services-list {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            gap: var(--inner-sections-gap);
+            margin-bottom: 3rem;
+            
+            .services-list-items {
+                display: flex;
+                max-width: 910px;
+                width: 100%;
+                gap: var(--inner-sections-gap);
+    
+                &:nth-child(even) {
+                    justify-content: flex-end;
+                }
+
+                .services-list-item {
+                    max-width: 303px;
+
+                }
+            }
+        }
+    }
 }

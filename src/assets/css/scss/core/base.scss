@@ -22,6 +22,7 @@
   --white-text: var(--white-soft);
 
   --section-gap: 85px;
+  --inner-sections-gap: 65px;
   --max-container-width: 1140px;
 
   --heading-font: Bebas;
@@ -79,6 +80,7 @@ button {
   box-shadow: var(--soft-shadow);
   border: none;
   transition: 0.3s;
+  cursor: pointer;
 
 
   &:hover {

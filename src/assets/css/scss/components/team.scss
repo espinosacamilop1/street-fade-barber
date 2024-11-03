@@ -1,3 +1,24 @@
 .team-container {
-    background-color: red;
+
+    .team-members {
+        display: flex;
+        justify-content: space-between;
+
+        .team-member {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 30%;
+
+            h2 {
+                padding-top: 25px;
+            }
+
+            p {
+                text-align: center;
+                padding-bottom: 45px;
+                max-width: 230px;
+            }
+        }
+    }
 }

@@ -5,7 +5,7 @@
 </script>
 
 <template>
-    <div class="services-container">
+    <div class="services-container section-container">
         <div class="services-header">
             <h2>Nuestros Servicios</h2>
     

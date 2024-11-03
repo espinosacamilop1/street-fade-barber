@@ -69,6 +69,10 @@ h2 {
   font-size: 35px;
 }
 
+h3 {
+  font-size: 24px;
+}
+
 // Button
 button {
   font-family: var(--heading-font);
@@ -95,4 +99,24 @@ button {
     color: var(--black-soft);
     text-decoration: none;
   }
+
+  &.black-outline {
+    border: 1px solid var(--black-soft);
+
+    &:hover {
+      border: 2px solid var(--gold);
+    }
+  }
+}
+
+// Container
+
+.section-container {
+    max-width: 1140px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    gap: var(--inner-sections-gap);
 }

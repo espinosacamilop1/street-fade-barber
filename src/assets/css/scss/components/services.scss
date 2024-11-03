@@ -1,11 +1,4 @@
 .services-container {
-    max-width: 1140px;
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-    flex-direction: column;
-    gap: var(--inner-sections-gap);
 
     .services-list-wrapper {
 
@@ -24,7 +17,8 @@
             flex-direction: column;
             align-items: flex-end;
             gap: var(--inner-sections-gap);
-            margin-bottom: 3rem;
+            height: 600px;
+            justify-content: center;
             
             .services-list-items {
                 display: flex;
@@ -34,6 +28,10 @@
     
                 &:nth-child(even) {
                     justify-content: flex-end;
+                }
+
+                &:last-child {
+                    margin-bottom: 3rem;
                 }
 
                 .services-list-item {

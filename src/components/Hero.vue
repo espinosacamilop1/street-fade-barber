@@ -7,7 +7,7 @@
 <template>
     <div class="hero-container">
             <button class="button">
-                <a href="">Reserva Ahora</a>
+                <a href="#Equipo">Reserva Ahora</a>
             </button>
     </div>
 </template>

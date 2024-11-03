@@ -5,7 +5,7 @@
 </script>
 
 <template>
-    <div class="team-container section-container">
+    <div id="Equipo" class="team-container section-container">
         <div class="team-header">
             <h2>Conoce a nuestro Equipo </h2>
     

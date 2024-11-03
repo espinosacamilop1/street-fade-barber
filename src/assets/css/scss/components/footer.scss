@@ -1,3 +1,37 @@
-.footer-container {
-    background-color: red;
+footer {
+    background-color: var(--black-soft);
+    margin-top: var(--section-gap);
+    padding: 3.5rem;
+
+    .footer {
+        flex-direction: row;
+        justify-content: space-between;
+
+        .footer-sections {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            max-width: 200px;
+
+            h2 {
+                text-align: center;
+                padding-bottom: 4rem;
+
+                &::after {
+                    content: "";
+                    height: 2px;
+                    width: 186px;
+                    display: flex;
+                    background-color: #7B7B7B;
+                    position: relative;
+                    top: 1.8rem;
+                }
+            }
+
+
+            p {
+                text-align: center;
+            }
+        }
+    }
 }

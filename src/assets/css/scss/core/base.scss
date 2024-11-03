@@ -53,6 +53,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+p {
+
+}
+
 // Headings
 
 h1,
@@ -60,9 +64,18 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+p.heading-text {
   color: var(--black-heading);
   font-family: var(--heading-font);
+
+  &.white {
+    color: var(--white-soft);
+  }
+}
+
+.heading-text {
+  font-size: 30px;
 }
 
 h2 {

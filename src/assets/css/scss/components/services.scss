@@ -1,6 +1,17 @@
 .services-container {
+    padding: 0;
+
+    .services-header {
+        padding-left: 2.5rem;
+        padding-right: 2.5rem;
+    }
 
     .services-list-wrapper {
+
+        @media (max-width: 992px) {
+            flex-direction: column-reverse;
+            display: flex;
+        }
 
         .services-list-background {
             position: absolute;
@@ -9,7 +20,18 @@
             height: 600px;
             background-repeat: no-repeat;
             background-image: url('../../../img/services-background.png');
-            background-size: contain;
+            background-size: cover;
+
+            @media (max-width: 992px) {
+                position: relative;
+                background-image: url('../../../img/servicios-image.webp');
+                width: 100%;
+                height: 360px;
+            }
+
+            @media (min-width: 992px) and (max-width: 1200px) {
+                left: -40px;
+            }
         }
 
         .services-list {
@@ -17,8 +39,19 @@
             flex-direction: column;
             align-items: flex-end;
             gap: var(--inner-sections-gap);
-            height: 600px;
             justify-content: center;
+            height: 600px;
+
+            @media (max-width: 992px) {
+                padding: 0 2.5rem;
+                height: unset;
+            }
+
+            @media (min-width: 992px) and (max-width: 1200px) {
+                justify-content: flex-start;
+                gap: 20px;
+                padding-right: 2.5rem;
+            }
             
             .services-list-items {
                 display: flex;
@@ -28,15 +61,45 @@
     
                 &:nth-child(even) {
                     justify-content: flex-end;
+
+                    @media (max-width: 992px) {
+                        justify-content: center;
+                    }
+
+                }
+
+                @media (max-width: 992px) {
+                    flex-direction: row;
+                    flex-wrap: nowrap;
+                    justify-content: center;
+                }
+
+                @media (min-width: 992px) and (max-width: 1200px) {
+                    justify-content: flex-end;
+                    gap: 1rem;
+                }
+
+                @media (max-width: 550px) {
+                    flex-wrap: wrap;
                 }
 
                 &:last-child {
-                    margin-bottom: 3rem;
+                    margin-bottom: 8rem;
                 }
 
                 .services-list-item {
                     max-width: 303px;
 
+                    @media (max-width: 550px) {
+                        max-width: unset;
+                    }
+
+                    @media (min-width: 767px) and (max-width: 992px) {
+                        max-width: unset;
+                    }
+                    @media (min-width: 992px) and (max-width: 1200px) {
+                        max-width: 280px;
+                    }
                 }
             }
         }
